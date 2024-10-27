@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/homeicon"
+        android:id="@+id/home"
+
+        android:title="Home" />
+    <item
+        android:icon="@drawable/tambahsiswaicon"
+        android:id="@+id/tambahsiswa"
+
+        android:title="Tambah Siswa" />
+    <item
+        android:icon="@drawable/dataicon"
+        android:id="@+id/data"
+
+        android:title="Data" />
+    <item
+        android:icon="@drawable/raporicon"
+        android:id="@+id/rapor"
+
+        android:title="Rapor" />
+</menu>
