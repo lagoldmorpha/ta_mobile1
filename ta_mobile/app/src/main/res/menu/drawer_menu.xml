@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/iconberanda"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/nav_tambah_data"
+        android:icon="@drawable/icontambahdata"
+        android:title="Tambah data Siswa" />
+    <item
+        android:id="@+id/nav_e_rapor"
+        android:icon="@drawable/iconrapor"
+        android:title="E-Rapor" />
+
+    <item android:title="Jurusan">
+        <menu>
+            <item
+                android:id="@+id/nav_angkatan_kelas"
+                android:title="Angkatan dan Kelas" />
+            <item
+                android:id="@+id/nav_data_siswa"
+                android:title="Data Siswa" />
+        </menu>
+    </item>
+
+    <item android:title="Profil">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/left_icon"
+                android:title="Log out" />
+        </menu>
+    </item>
+</menu>

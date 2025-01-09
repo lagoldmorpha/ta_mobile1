@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationView.GroupTitle" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">@color/blue</item> <!-- Set your desired color -->
+    <item name="android:textSize">14sp</item> <!-- Optional: Adjust text size -->
+    <item name="android:fontFamily">sans-serif</item> <!-- Optional: Adjust font style -->
+</style>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here -->
+    </style>
+</resources>
