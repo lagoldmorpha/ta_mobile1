@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/my_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="My Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/titlebiodatasiswa" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginTop="30dp">
+
+                <!-- Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Tamatan dari"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue" />
+
+                <EditText
+                    android:id="@+id/angkatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="Nama Se"
+                    android:padding="12dp" />
+
+                <!-- Nama Panggilan -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="NO Ijasah"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue" />
+
+                <EditText
+                    android:id="@+id/no_ijasah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="No Ijasah"
+                    android:padding="12dp" />
+
+                <!-- Jenis Kelamin -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="No SKHUN"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue" />
+
+                <EditText
+                    android:id="@+id/no_skhun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="No SKHUN"
+                    android:padding="12dp" />
+
+                <!-- Tempat dan Tanggal Lahir -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textStyle="bold"
+                    android:text="Pindahan Dari"
+                    android:textSize="17dp"
+                    android:textColor="@color/blue" />
+
+                <EditText
+                    android:id="@+id/pindahan_dari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="Nama Sekolah"
+                    android:padding="12dp" />
+
+                <!-- Agama -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Alasan dipindahkan"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue" />
+
+                <EditText
+                    android:id="@+id/alasan_dipindahkan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="Alasan dipindahkan"
+                    android:padding="12dp" />
+
+                <!-- Kewarganegaraan -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Diterima di Kelas"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue" />
+
+                <Spinner
+                    android:id="@+id/spinner_diterima_dikelas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Bidang keahlian"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue" />
+
+                <Spinner
+                    android:id="@+id/spinner_bidang_keahlian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Program Keahlian"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue" />
+
+                <Spinner
+                    android:id="@+id/spinner_program_keahlian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Paket Keahlian"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue" />
+
+                <Spinner
+                    android:id="@+id/spinner_paket_keahlian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:padding="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Tanggal Diterima"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue" />
+
+                <EditText
+                    android:id="@+id/tanggal_diterima"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext_background"
+                    android:hint="Tanggal"
+                    android:padding="12dp" />
+
+            </LinearLayout>
+
+            <!-- Next Button -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white">
+
+                <ImageButton
+                    android:id="@+id/kembali"
+                    android:layout_width="180dp"
+                    android:layout_height="65dp"
+                    android:background="@color/white"
+                    android:src="@drawable/kembali_btn"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginBottom="130dp"
+                    android:contentDescription="Button" />
+
+                <ImageButton
+                    android:id="@+id/my_image_button"
+                    android:layout_width="180dp"
+                    android:layout_height="65dp"
+                    android:background="@color/white"
+                    android:src="@drawable/selanjutnya"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginBottom="130dp"
+                    android:contentDescription="Button" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
