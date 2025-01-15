@@ -14,9 +14,10 @@
         android:id="@+id/my_image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="20dp"
         android:contentDescription="My Image"
         android:scaleType="centerCrop"
-        android:src="@drawable/titlebiodatasiswa" />
+        android:src="@drawable/title_alamat" />
 
     <!-- Biodata Details -->
     <LinearLayout
