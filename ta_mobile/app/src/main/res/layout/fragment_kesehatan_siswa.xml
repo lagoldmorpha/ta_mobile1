@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".form_kesehatan_siswa">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titleformkesehatan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtGolDarah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Gol. Darah"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerGolDarah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext_background"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtPenyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Penyakit yang Diderita"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPenyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext_background"
+            android:hint="HIV, dll"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtKelainanJasmani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Kelainan Jasmani"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etKelainanJasmani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext_background"
+            android:hint="Sakit jantung, patah tulang, dll"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtTinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Tinggi Badan"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etTinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext_background"
+            android:hint="... cm"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtBerat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Berat Badan"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etBerat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext_background"
+            android:hint="... kg"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+        <ImageButton
+            android:id="@+id/imgBtnKembali"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_marginHorizontal="21dp"
+            android:contentDescription="kembali"
+            android:src="@drawable/kembali" />
+
+        <ImageButton
+            android:id="@+id/imgBtnSelanjutnya"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_marginHorizontal="21dp"
+            android:contentDescription="selanjutnya"
+            android:src="@drawable/selanjutnya" />
+    </LinearLayout>
+
+
+</LinearLayout>

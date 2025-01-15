@@ -11,25 +11,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-    tools:targetApi="31">
+        tools:targetApi="31">
+        <activity
+            android:name=".form_alamat_siswa"
+            android:exported="false" />
+        <activity
+            android:name=".form_kesehatan_siswa"
+            android:exported="false" />
+        <activity
+            android:name=".form_biodata_siswa"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_awal"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-    <activity
-        android:name=".form_biodata_siswa"
-        android:exported="false" />
-    <activity
-        android:name=".login"
-        android:exported="false" />
-    <activity
-        android:name=".MainActivity"
-        android:exported="false" />
-    <activity
-        android:name=".halaman_awal"
-        android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-</application>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
-    </manifest>
+</manifest>

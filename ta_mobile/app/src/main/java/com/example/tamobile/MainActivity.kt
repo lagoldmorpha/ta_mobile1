@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_tambah_data -> {
                     // Load the BiodataSiswa Fragment
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.fragment_container, BiodataFragment())
+                        .replace(R.id.fragment_container, BiodataSiswa())
                         .addToBackStack(null)
                         .commit()
                 }

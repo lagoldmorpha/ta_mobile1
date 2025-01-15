@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".form_alamat_siswa">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titleformalamat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/txtAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Siswa"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:padding="12dp"
+            android:background="@drawable/custom_edittext_background"/>
+
+        <TextView
+            android:id="@+id/txtNoTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. Telp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNoTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="08xxx"
+            android:padding="12dp"
+            android:background="@drawable/custom_edittext_background"/>
+
+        <TextView
+            android:id="@+id/txtTinggalDengan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tinggal Dengan"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerTinggelDengan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@drawable/custom_edittext_background"/>
+
+        <TextView
+            android:id="@+id/txtTempatLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Lahir"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etTempatLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Malang..."
+            android:padding="12dp"
+            android:background="@drawable/custom_edittext_background"/>
+
+        <TextView
+            android:id="@+id/txtTglLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etTglLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(DD/MM/YY)"
+            android:padding="12dp"
+            android:background="@drawable/custom_edittext_background"/>
+
+        <TextView
+            android:id="@+id/txtJarakSklh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jarak ke Sekolah"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etJarakSklh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="... km"
+            android:padding="12dp"
+            android:background="@drawable/custom_edittext_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+        <ImageButton
+            android:id="@+id/imgBtnKembali"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_marginHorizontal="21dp"
+            android:contentDescription="kembali"
+            android:src="@drawable/kembali" />
+
+        <ImageButton
+            android:id="@+id/imgBtnSelanjutnya"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_marginHorizontal="21dp"
+            android:contentDescription="selanjutnya"
+            android:src="@drawable/selanjutnya" />
+    </LinearLayout>
+
+</LinearLayout>
